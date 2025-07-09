@@ -173,7 +173,7 @@ int main(int argc, char *argv[]) {
 
     bytes_per_codepoint(argv[1]);
     print_first_6_codepoints(argv[1]);
-    return 0;
+    
     // implement the UTF-8 analyzer here
 
     
@@ -183,5 +183,5 @@ int main(int argc, char *argv[]) {
 	code_point_with_value_one_higher_at_i3(argv[1]);
 
 
-
+    return 0;
 }
